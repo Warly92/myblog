@@ -696,6 +696,7 @@ footer .footer_bottom .copyright p a{
     width: auto;
     line-height: normal;
     border-radius: 150px;
+    border: none;
 }
 .contact_main_info form .submit:hover{
     background: #007527;
