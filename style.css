@@ -189,6 +189,8 @@ section .blog_info h2{
 section .blog_info p{
     font-size: 17px;
     margin: 20px 0 40px;
+    color: #333;
+    line-height: 1.5em; 
 }
 section .blog_categories{
     text-align: center;
@@ -365,6 +367,8 @@ main .container .main_info a:hover{
 }
 section .gallery_info{
     text-align: center;
+    color: #333;
+    line-height: 1.5em;
 }
 section .gallery_info h2{
     font-size: 40px;
@@ -696,7 +700,6 @@ footer .footer_bottom .copyright p a{
     width: auto;
     line-height: normal;
     border-radius: 150px;
-    border: none;
 }
 .contact_main_info form .submit:hover{
     background: #007527;
