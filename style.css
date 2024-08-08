@@ -76,6 +76,14 @@ header nav {
     transform: translate(0,-50%);
     right: 200px;
 }
+header nav .checkbox, header nav input{
+    display: none;
+}
+header nav .checkbox i{
+    color: #D8673D;
+    font-size: 38px;
+    cursor: pointer;
+}
 header nav ul{}
 header nav ul li {
     display: inline-block;

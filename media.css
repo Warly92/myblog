@@ -1,8 +1,8 @@
 @media only screen and (max-width: 1300px) {
-/* header */
+/* header 
     header {
-        overflow: hidden;
-    }
+        overflow-x: hidden;
+    }*/
 /* hero section */
     .banner {
         overflow-x: hidden;
@@ -125,6 +125,44 @@
 
 
 @media only screen and (max-width: 810px) {
+/* header */
+    header nav {
+        width: 100%;
+        transform: none;
+        right: unset;
+        top: 30%;
+    }
+    header a {
+        z-index: 3;
+        position: relative;
+    }
+    header nav .checkbox{
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+    }
+    header nav ul {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background: #fff;
+        left: -100%;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 40px 0;
+        background: #fff;
+        border-top: 1px solid #D8673D;
+        z-index: 99;
+    }
+    nav #check:checked ~ ul {
+        left: 0;
+    }
+    header .social_media {
+        display: none;
+    }
+/* hero */
     section .banner_info h2 {
         font-size: 40px;
     }
